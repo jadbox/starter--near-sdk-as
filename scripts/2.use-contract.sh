@@ -41,6 +41,7 @@ echo
 # near view $CONTRACT write '{"key": "some-key", "value":"some value"}'
 # near call $CONTRACT write '{"key": "some-key", "value":"some value"}' --accountId $CONTRACT
 near call $CONTRACT write '{"key": "some-key", "value":"some value"}' --accountId jadbox.testnet
+near call $CONTRACT write '{"key": "some-other-key", "value":"some value"}' --accountId jadbox.testnet
 
 echo
 echo "now run this script again to see changes made by this file"
