@@ -1,5 +1,7 @@
 # `near-sdk-as` Starter Kit
 
+## FORK BY JONATHAN DUNLAP - jadbox.testnet - jadbox.near - jonathan@mintkudos.com
+
 This is a good project to use as a starting point for your AssemblyScript project.
 
 ## Samples

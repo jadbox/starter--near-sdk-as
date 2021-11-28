@@ -20,9 +20,9 @@ echo "(edit scripts/1.dev-deploy.sh to deploy other contract)"
 echo ---------------------------------------------------------
 echo
 
-# comment out the line below to deploy the other example contract
-near dev-deploy ./build/release/simple.wasm
-
+# comment out the line below to deploy the other example contract dev-
+# near deploy --wasm-file ./build/release/simple.wasm --account-id test.jadbox.testnet
+near dev-deploy --wasm-file ./build/release/singleton.wasm # simple.wasm
 # uncomment the line below to deploy the other example contract
 # near dev-deploy ./build/release/singleton.wasm
 
@@ -38,7 +38,7 @@ echo "(b) set an environment variable using this account name"
 echo "    see example below (this may not work on Windows)"
 echo
 echo ---------------------------------------------------------
-echo 'export CONTRACT=<dev-123-456>'
+echo 'export CONTRACT=XXX'
 # uncomment this line for a useful hint when using the singleton style
 # echo "near call \$CONTRACT init --accountId \$CONTRACT"
 echo ---------------------------------------------------------
